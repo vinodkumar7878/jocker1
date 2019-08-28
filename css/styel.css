@@ -1,0 +1,431 @@
+
+body{
+  z-index: 1;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 10rem;
+  text-shadow:red 1px 0 10px;
+  -moz-transform: rotate(90deg) skew(40deg, 5deg);
+  -ms-transform: rotate(90deg) skewX(40deg, 5deg);
+  -webkit-transform: rotate(9deg) skewX(40deg, 5deg);
+  -webkit-transform: rotate(9deg) skewX(40deg, 5deg);
+  -moz-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+h1:hover {
+ / background: #ff6e42; /
+ color: ;
+ -moz-transform: translate(0.9em, -0.9em);
+ -ms-transform: translate(0.9em, -0.9em);
+ -webkit-transform: translate(0.9em, -0.9em);
+ -webkit-transform: translate(0.9em, -0.9em);
+ /* -moz-transition: all 0.25s linear;
+ -o-transition: all 0.25s linear;
+ -webkit-transition: all 0.25s linear; */
+ transition: all 0.25s linear;
+}
+h2{
+  margin-left:30%;
+  text-align: center;
+  font-size:5rem;
+  text-shadow:2px 2px red;
+  width:40%;
+}
+h3 {
+  position: absolute;
+  top:140px;
+  left: 520px;
+  font-size: 4.5rem;
+  text-shadow:red 1px 0 10px;
+  font-family: 'why so serious', sans-serif;
+
+}
+
+@font-face {
+  font-family: 'why so serious';
+  src: url('why-so-serious.regular.ttf');
+}
+
+h4{
+  position: absolute;
+  top:170px;
+  right:40px;
+font-family: 'Dancing Script', cursive;
+  text-shadow:red 1px 0 10px;
+letter-spacing: 2px;
+}
+h5{
+  position: absolute;
+  top:450px;
+  left:520px;
+  font-size:15rem;
+  font-family: 'Dancing Script', cursive;
+  color:white;
+  text-shadow:red 1px 0 10px;
+}
+ul{
+  position: relative;
+  -moz-transform: rotate(90deg) skew(40deg, 5deg);
+  -ms-transform: rotate(90deg) skewX(40deg, 5deg);
+  -webkit-transform: rotate(9deg) skewX(40deg, 5deg);
+  -webkit-transform: rotate(9deg) skewX(40deg, 5deg);
+}
+
+
+
+
+
+.list-item {
+  background: #ff4c68;
+    color:#341677;
+  text-align: center;
+  height: 3.2em;
+  width: 6em;
+  vertical-align: middle;
+  line-height: 2.5em;
+  /* border-bottom: 1px solid #060606; */
+  position: relative;
+  display: block;
+  text-decoration: none;
+  margin-left: 8px;
+  /* -moz-box-shadow: -2em 1.5em 0 #e1e1e1;
+  -webkit-box-shadow: -2em 1.5em 0 #e1e1e1;
+  box-shadow: -2em 1.5em 0 #e1e1e1; */
+  /* -moz-transition: all 0.25s linear; */
+  -o-transition: all 0.25s linear;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  transform: 0.88s ease;
+  /* / transition: transform 0.4s , opacity 0.4s; / */
+}
+ .list-item:hover {
+   /* font-family: 'why so serious', sans-serif; */
+  background: #ff6e42;
+  color: #fffcfb;
+   -moz-transform: translate(0.9em, -0.9em);
+
+  -webkit-transform: translate(0.9em, -0.9em);
+  /*-webkit-transform: translate(0.9em, -0.9em); */
+  -moz-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  /* -moz-box-shadow: -2em 2em 0 #e1e1e1;
+  -webkit-box-shadow: -2em 2em 0 #e1e1e1; */
+  box-shadow:   #ff4c68 2em 2em 0 ;
+}
+
+
+
+
+
+.shop{
+  position: absolute;
+  top: 170px;
+  left: 60px;
+  font-size: 20px;
+  color: black;
+  text-shadow:red 1px 0 10px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Lacquer', sans-serif;
+}
+.describe{
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  color: white;
+}
+.head-img {
+  position:relative;
+}
+.h1 {
+  position: absolute;
+  top:40%;
+  left: 10%;
+  font-family: 'why so serious', sans-serif;
+  color:#341677;
+  width: 40%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+.desc{
+  position: absolute;
+  top:500px;
+  left:32%;
+  font-family: 'Lacquer', sans-serif;
+  font-size:2.5rem;
+  color:#e42c64;
+  transform:skewx(35deg);
+}
+.dc-pic{
+  max-width:20%;
+  margin: 60px 500px 100px;
+
+}
+.jockerdetails{
+  width:80%;
+  text-align: left;
+  font-size:24px;
+  padding-left: 200px;
+  padding-bottom: 100px;
+  color:#49beb7;
+}
+
+/*  this is for the first joker of the DC world*/
+
+
+#overlay {
+  position: relative;
+  display: none;
+  width: 50%;
+  height: 50%;
+  top:-100px;
+  left: 120px;
+  transition: width 4s;
+
+
+  /* background-color: rgba(0,0,0,0.5); */
+  /* z-index: 2; */
+  cursor: pointer;
+}
+#overlay :hover{
+width:50%;
+/* z-index: -1; */
+/* color:white; */
+
+
+
+ /* transform: rotate(360deg); */
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  /* color: white; */
+  /* transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%); */
+}
+
+.joker1{
+
+  width:70%;
+  height:70%;
+}
+
+/*  this is for the second joker of the DC world*/
+
+
+
+#over{
+  position: relative;
+  display: none;
+  width: 20%;
+  height: 30%;
+  top: 10px;
+  left: 450px;
+  transition: width 4s;
+
+
+  /* background-color: rgba(0,0,0,0.5);
+  /* z-index: 2;*/
+  cursor: pointer;
+}
+#over:hover{
+width:50%;
+/* z-index: -1;
+color:white; */
+ /* transform: rotate(360deg); */
+}
+
+/*  this is for the third joker of the DC world*/
+
+#overflow{
+  position: relative;
+  display: none;
+  width: 20%;
+  height: 350%;
+  top: 10px;
+  left: 450px;
+  transition: width 4s;
+
+
+  /* background-color: rgba(0,0,0,0.5);
+  /* z-index: 2;*/
+  cursor: pointer;
+}
+
+#overflow:hover{
+width:50%;
+ /* transform: rotate(360deg); */
+}
+
+/*  this is for the forth joker of the DC world*/
+
+
+#overflow1{
+  position: relative;
+  display: none;
+  width: 20%;
+  height: 30%;
+  top: 10px;
+  left: 450px;
+  transition: width 4s;
+
+
+  /* background-color: rgba(0,0,0,0.5);
+  /* z-index: 2;*/
+  cursor: point
+}
+
+#overflow1:hover{
+width:50%;
+ /* transform: rotate(360deg); */
+}
+
+
+/*  this is for the fifth joker of the DC world*/
+
+
+#overflow2{
+  position: relative;
+  display: none;
+  width: 20%;
+  height: 30%;
+  top: 10px;
+  left: 450px;
+  transition: width 4s;
+
+
+  /* background-color: rgba(0,0,0,0.5);
+  /* z-index: 2;*/
+  cursor: point
+}
+
+#overflow2:hover{
+width:50%;
+ /* transform: rotate(360deg); */
+}
+.Monaghan{
+  width:100%;
+  position: relative;
+  right:380px;
+}
+
+
+/*  this is for the sixth joker of the DC world*/
+
+
+
+#overflow3{
+  position: relative;
+  display: none;
+  width: 20%;
+  height: 30%;
+  top: 10px;
+  left: 450px;
+  transition: width 4s;
+
+
+  /* background-color: rgba(0,0,0,0.5);
+  /* z-index: 2;*/
+  cursor: point
+}
+
+#overflow3:hover{
+width:50%;
+ /* transform: rotate(360deg); */
+}
+
+/*  this is for the last joker of the DC world*/
+
+
+#overflow4{
+  position: relative;
+  display: none;
+  width: 20%;
+  height: 30%;
+  top: 10px;
+  left: 450px;
+  transition: width 4s;
+
+
+  /* background-color: rgba(0,0,0,0.5);
+  /* z-index: 2;*/
+  cursor: point
+}
+
+#overflow4:hover{
+width:50%;
+ /* transform: rotate(360deg); */
+}
+
+
+/* section */
+.section {
+  position: relative;
+}
+.section-img {
+  max-width: 100%;
+  margin-top: 100px;
+}
+
+
+.why{
+  position: absolute;
+  top:720px;
+  left:400px;
+  font-size:5rem;
+  color:white;
+  font-family: 'why so serious', sans-serif;
+  text-shadow:red 1px 0 10px;
+}
+.quote{
+  font-family: 'Pacifico', cursive;
+  position: absolute;
+  top:850px;
+  left:150px;
+  color:yellow;
+  font-size: 25px;
+  padding:40px;
+  text-shadow:red 1px 0 10px;
+}
+
+/* footer section */
+
+.footer{
+  position: relative;
+  max-width:100%;
+  height:300px;
+  background-color: #252525;
+}
+.official{
+  position:relative;
+  right:450px;
+  bottom:150px;
+}
+.icons{
+  position: absolute;
+  top:40px;
+  left:80%;
+
+}
+/* .icon{
+  font-size: 20px;
+  color: black;
+  text-shadow:red 1px 0 10px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Lacquer', sans-serif;
+} */
